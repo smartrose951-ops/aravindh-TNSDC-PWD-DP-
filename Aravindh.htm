@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aravindh - Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: #00BFFF;
+        }
+        a {
+            color: #00BFFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            background-color: #111;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 2px solid #00BFFF;
+        }
+        header h1 {
+            margin: 10px 0;
+            font-size: 2.5em;
+        }
+
+        
+        img {
+            width: 150px;
+            height: 150px;
+            
+          
+            object-fit: cover;
+            
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+        nav a {
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            border-bottom: 2px solid #00BFFF;
+            padding-bottom: 10px;
+        }
+        .skills ul {
+            list-style-type: square;
+        }
+        .education, .skills, .contact {
+            margin-bottom: 40px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            border-top: 2px solid #00BFFF;
+        }
+
+        /* Button */
+        .contact button {
+            background-color: #00BFFF;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .contact button:hover {
+            background-color: #0080FF;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Aravindh</h1>
+        <!-- Profile Picture -->
+        <img src=https://i.postimg.cc/76k2MSpH/IMG-20250406-143922-967.webp
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Aravindh, a passionate web developer with a love for creating beautiful and functional websites. I enjoy learning new technologies and building projects that make a difference.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>React & Node.js basics</li>
+            <li>Problem Solving & Debugging</li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor's in Computer Science - Your University</li>
+            <li>High School Diploma - Your School</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, click the button below:</p>
+        <button onclick="showMessage()">Send Message</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Aravindh| All Rights Reserved
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function showMessage() {
+            alert("Thank you for reaching out! I'll get back to you soon.");
+        }
+    </script>
+
+</body>
+</html>
